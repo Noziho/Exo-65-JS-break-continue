@@ -6,10 +6,6 @@ for ( let i = 0 ; i < p.length ; i++) {
         continue;
     }
 
-    else if (i === p.length) {
-        break;
-    }
-
     else {
         p[i].innerHTML = i + 1;
     }
